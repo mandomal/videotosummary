@@ -1,0 +1,16 @@
+# local package
+-e .
+
+# external requirements
+click
+Sphinx
+coverage
+#awscli
+flake8
+
+python-dotenv==1.0.1
+langchain==0.1.14
+langchain-openai
+pinecone-client==2.2.1
+openai==1.17
+tenacity
